@@ -1,3 +1,5 @@
 # prueba 1
-class Calculadora():
-    pass
+class Calculadora:
+    def valor(self):
+        #fuerzo el error
+        return 2
