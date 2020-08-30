@@ -1,5 +1,9 @@
 # prueba 1
 class calculadora:
+        total=0
+
     def valor(self):
-        #se fuerza el error 
-        return 2
+        return self.total
+
+    def suma(self,uno,dos):
+        self.total=5 
