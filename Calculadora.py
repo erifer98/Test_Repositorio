@@ -1,5 +1,4 @@
 # prueba 1
-class Calculadora:
+class calculadora:
     def valor(self):
-        #fuerzo el error
-        return 2
+        return 1

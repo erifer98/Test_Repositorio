@@ -1,10 +1,11 @@
 import unittest
+from Calculadora import calculadora
 
-from Calculadora import Calculadora
+class TestCal(unittest.TestCase):
 
-class Test_1 (unittest.TestCase):
-    
-    def Calculadora_debe_iniciar_en_cero(self):
-        calc=Calculadora()
+    def test_debe_iniciar_con_uno(self):
+        calc = calculadora()
         self.assertEqual(0,calc.valor())
 
+if __name__=='__main__':
+    unittest.main()
