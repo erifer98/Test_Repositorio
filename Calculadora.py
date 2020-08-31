@@ -6,4 +6,4 @@ class calculadora:
         return self.total
 
     def suma(self,uno,dos):
-        self.total=5 
+        self.total= uno + dos
