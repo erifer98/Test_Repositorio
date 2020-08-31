@@ -11,6 +11,11 @@ class TestCal(unittest.TestCase):
         calc= calculadora()
         calc.suma(2,3)
         self.assertEqual(5,calc.valor())
+       
+    def test_suma_4_mas_3_es_siete(self):
+        calc= calculadora()
+        calc.suma(4,3)
+        self.assertEqual(7,calc.valor())
 
 if __name__=='__main__':
     unittest.main()
